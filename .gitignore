@@ -1,0 +1,16 @@
+# Local .terraform directories and plugin caches
+.terraform/
+# State files — may contain sensitive values, never commit these
+*.tfstate
+*.tfstate.*
+# Variable files that might hold secrets
+*.tfvars
+*.tfvars.json
+# Crash logs and CLI config overrides
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+.terraformrc
+terraform.rc
+build/
