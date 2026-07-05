@@ -10,7 +10,9 @@ Built in the `ap-south-1` (Mumbai) region.
 ---
 
 ## Architecture
+
 ![Architecture diagram](images/architecture.png)
+
 ```
                         ┌────────────────────────────┐
    Upload (PUT)         │                            │
@@ -163,6 +165,10 @@ curl "<API_BASE_URL>/images/uploads/test.jpg"
 
 A successful response returns the record as JSON, including `size_bytes`,
 `content_type`, and `status`.
+
+## Example API response
+
+![API response](images/api-response.png)
 
 To test failure handling, send a message directly to the dead-letter queue and
 watch the CloudWatch alarm fire and email you:
