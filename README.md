@@ -10,7 +10,7 @@ Built in the `ap-south-1` (Mumbai) region.
 ---
 
 ## Architecture
-
+![Architecture diagram](images/architecture.png)
 ```
                         ┌────────────────────────────┐
    Upload (PUT)         │                            │
